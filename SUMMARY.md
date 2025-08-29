@@ -1,9 +1,6 @@
 # Table of contents
 
-## Group 1
+## Python
 
-* [Page 2](README.md)
-
-## Group 2
-
-* [Page 1](group-2/page-1.md)
+* [파이썬](README.md)
+  * [파이썬 배경](python/undefined/undefined.md)
