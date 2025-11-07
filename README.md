@@ -15,3 +15,5 @@
 ### ✏️ 3. Nano 편집기 기초
 - [📙 linux_nano.md](./linux_nano.md)  
   → nano 실행 방법, 저장/종료, 단축키, 검색/바꾸기 기능까지 정리
+- [📙 linux_nano_practice.md](./linux_nano_practice.md)  
+  → nano 편집기 실습
