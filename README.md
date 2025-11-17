@@ -21,4 +21,5 @@
 ### 4. Visual Studio Code 설치
 - Visual Studio Code 홈페이지 접속 후 설치 파일 (.deb 다운) (https://code.visualstudio.com/Download)
 - 파일 실행
-``` sudo apt install ./파일명 실행 ```
+  
+``` sudo apt install ./파일명 ```
