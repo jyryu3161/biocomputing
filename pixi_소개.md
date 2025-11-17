@@ -91,7 +91,7 @@ cd hello_pixi
 2️⃣ Python 설치
 
 ```bash
-pixi add python
+pixi add python=3.10
 ```
 
 3️⃣ 코드 작성
@@ -120,35 +120,7 @@ Hello, Pixi!
 
 ---
 
-## 🔢 8️⃣ Numpy 예제
-
-```bash
-pixi add numpy
-```
-
-`calc.py` 파일 작성:
-
-```python
-import numpy as np
-numbers = np.array([1, 2, 3, 4, 5])
-print("평균:", np.mean(numbers))
-```
-
-실행:
-
-```bash
-pixi run python calc.py
-```
-
-결과:
-
-```
-평균: 3.0
-```
-
----
-
-## 💻 9️⃣ Pixi 환경 진입 (가상환경 들어가기)
+## 💻 8️⃣ Pixi 환경 진입 (가상환경 들어가기)
 
 Pixi는 자동으로 가상환경을 관리합니다.
 하지만 직접 환경에 들어가서 명령을 실행할 수도 있습니다:
@@ -162,7 +134,7 @@ pixi shell
 
 ---
 
-## 📘 🔟 Pixi 환경 설정 파일 예시 (`pixi.toml`)
+## 📘 Pixi 환경 설정 파일 예시 (`pixi.toml`)
 
 ```toml
 [project]
@@ -281,23 +253,3 @@ plt.show()
 | 4  | `pixi run jupyter-lab`             | JupyterLab 실행             |
 | 5  | `pixi shell`                       | 환경 안으로 진입                 |
 | 6  | `exit`                             | 환경 종료                     |
-
----
-
-## 🎯 14️⃣ 정리 요약
-
-✅ Pixi는 초보자도 **한 줄 명령으로 Python 환경을 구성**할 수 있게 도와줍니다.
-✅ `pixi.toml` 파일 하나로 언제든 **같은 환경을 재현**할 수 있습니다.
-✅ `pixi run jupyter-lab` 명령으로 **Jupyter 환경까지 바로 사용 가능**합니다.
-✅ 설치, 실행, 공유—all-in-one. Pixi는 Python 학습의 가장 쉬운 출발점입니다 🚀
-
----
-
-원하신다면 이 내용을
-
-* 📘 **PDF 버전 (수업/교재용)**
-* 💻 **실습용 예제 폴더 (`hello_pixi`, `jupyter_demo`) 포함 ZIP 파일**
-  로 만들어드릴 수 있습니다.
-
-어떤 형식으로 드릴까요?
-예: `"PDF로 만들어줘"` / `"PDF + 예제 코드 함께"`
