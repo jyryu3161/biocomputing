@@ -23,3 +23,4 @@
 - 파일 실행
   
 ``` sudo apt install ./파일명 ```
+- Extension 설치 - python, jupyter notebook
